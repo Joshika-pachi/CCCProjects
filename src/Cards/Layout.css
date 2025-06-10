@@ -1,0 +1,61 @@
+/* CardLayout.css */
+
+/* .first{
+    margin-top: 140px;
+}
+.outer {
+   
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+   width: 100%;
+   
+}
+
+.left {
+  flex: 3;
+  color: black;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.right {
+  flex: 1;
+  color: black;
+  padding-left: 20px;
+  width: 100%;
+} */
+
+
+
+.outer {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* This is good, makes the card take 100% of its parent's width */
+}
+
+.left {
+    flex: 3;
+    color: black;
+    padding-right: 20px;
+    /* Remove width: 100%; here. Flex items don't usually need it. */
+    /* width: 100%; */
+}
+
+.right {
+    flex: 1;
+    color: black;
+    padding-left: 20px;
+    /* Remove width: 100%; here. Flex items don't usually need it. */
+    /* width: 100%; */
+}
+#sub p {
+  margin: 5px 0;
+}
+
+h2, h3, h6, p {
+  margin: 5px 0;
+}
