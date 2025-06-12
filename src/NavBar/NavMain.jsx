@@ -136,6 +136,23 @@ const NavMain = () => {
           </Select>
         </FormControl>
 
+            <Button
+          variant="contained"
+          size="large"
+          sx={{
+            backgroundColor: 'lightgray',
+            color: 'black',
+            borderRadius: '20px',
+            textTransform: 'none',
+            width: '200px',
+            '&:hover': {
+              backgroundColor: 'black',
+              color: 'white',
+            },
+          }}
+        >
+          Student dashboard
+        </Button>
        
         <UserMenu
           menuItems={[

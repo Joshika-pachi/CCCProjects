@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Routing from './routing';
+import StudentLayout from './StudentLayout';
+// import Routing from './routing';
 
 function App() {
   return (
-    
-    <Routing />
+    <StudentLayout />
+    // <Routing />
   );
 }
 
